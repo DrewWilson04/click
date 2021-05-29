@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Click!</title>
+  <link rel="stylesheet" href="clicker.css">
+
+</head>
+
+<body class="background center">
+  <button type="button" id="clicker">Click me</button>
+  <p class="textcolor"> Clicks: <a id="clicks">0</a></p>
+
+
+
+
+<script src="./index.js"></script>
+<script src="./renderer.js"></script>
+</body>
+
+</html>
